@@ -8,18 +8,19 @@
     width: 100%;
     min-height: 100vh;
     background-image: linear-gradient(257deg, #f59c07, #f57507);
-    padding: 50px;
+    padding: 10px;
     font-family: 'Roboto', sans-serif;
 }
 
 .form {
     margin: 0 auto;
     padding: 35px;
-    width: 700px;
+    max-width: 700px;
+    width: 100%;
     min-height: 500px;
     background-color: #fff;
-    border-radius: 3px;
-    box-shadow: 0 9px 23px 0 rgb(0 0 0 / 3%);
+    border-radius: 15px;
+    box-shadow: 0 9px 23px 0 rgb(0 0 0 / 60%);
     h2 {
         text-align: center;
         font-size: 28px;
@@ -39,7 +40,7 @@
         background: #fff;
         border: 1px solid #e2e2e2;
         color: #353535;
-        border-radius: 10px;
+        border-radius: 15px;
         font-size: 22px;
         &:focus {
             outline: 1px solid #f57507;
@@ -70,7 +71,7 @@
         background: #fff;
         border: 1px solid #e2e2e2;
         color: #353535;
-        border-radius: 10px;
+        border-radius: 15px;
         resize:none;
         &:focus {
             outline: 1px solid #f57507;
@@ -96,7 +97,7 @@
         font-size: 18px;
         color: #fff;
         border: 0;
-        border-radius: 10px;
+        border-radius: 15px;
         background-image: linear-gradient(257deg, #f59c07, #f57507);
     }
     .error {
